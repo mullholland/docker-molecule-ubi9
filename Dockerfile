@@ -30,6 +30,7 @@ RUN yum makecache --timer \
       hostname \
       procps-ng \
       ca-certificates \
+      iproute \
  && yum clean all
 
 # Disable requiretty.
