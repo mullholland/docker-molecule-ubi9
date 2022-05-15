@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ubi:latest
+FROM registry.access.redhat.com/ubi9-beta/ubi:latest
 
 LABEL maintainer="mullholland"
 LABEL build_update="2022-04-30"
